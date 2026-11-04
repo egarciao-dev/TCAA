@@ -100,7 +100,7 @@ Provides educational information about the algorithms implemented in TCAA, inclu
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/TCAA.git
+git clone https://github.com/egarciao-dev/TCAA.git
 cd TCAA
 ```
 
