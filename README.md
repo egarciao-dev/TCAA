@@ -179,6 +179,22 @@ TCAA demonstrates several important concepts from algorithm engineering:
 
 The application is intended primarily as an educational tool rather than a production navigation or scheduling system.
 
+## Testing
+
+TCAA includes automated unit tests for its graph algorithms using Python's built-in `unittest` framework.
+
+The test suite covers:
+- BFS shortest paths and unreachable nodes
+- DFS traversal and path validation
+- Dijkstra's shortest weighted paths
+- Prim's minimum spanning tree cost and cycle detection
+
+Run the tests from the project root:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
 ## Future Improvements
 
 Potential improvements include:
