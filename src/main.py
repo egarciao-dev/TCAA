@@ -11,8 +11,9 @@ import os
 import PyPDF2
 from docx import Document
 from PIL import Image, ImageTk
+from pathlib import Path
 
-from src.campus_algorithms import *
+from campus_algorithms import *
 from note_search_algorithms import naive_string_match, rabin_karp, kmp_search
 
     
@@ -249,7 +250,8 @@ class TCAAApp(tk.Tk):
         self.campus_canvas.bind("<B3-Motion>", self._do_pan)
 
         # Load Map image
-        self.bg_image = Image.open("map_o.png")
+        PROJECT_ROOT = Path(__file__).resolve().parent.parent
+        MAP_PATH = PROJECT_ROOT / "assets" / "map_o.png"
         # Logical map size (coords + canvas)
         MAP_DISPLAY_WIDTH = 600
         MAP_DISPLAY_HEIGHT = 776
