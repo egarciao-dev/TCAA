@@ -112,3 +112,8 @@ Provides a quick reference:
 
 ```bash
 pip install Pillow PyPDF2 python-docx
+
+## License
+
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
