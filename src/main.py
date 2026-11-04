@@ -13,8 +13,8 @@ from docx import Document
 from PIL import Image, ImageTk
 from pathlib import Path
 
-from campus_algorithms import *
-from note_search_algorithms import naive_string_match, rabin_karp, kmp_search
+from .campus_algorithms import *
+from .note_search_algorithms import (naive_string_match, rabin_karp, kmp_search)
 
     
 class TCAAApp(tk.Tk):
@@ -252,11 +252,21 @@ class TCAAApp(tk.Tk):
         # Load Map image
         PROJECT_ROOT = Path(__file__).resolve().parent.parent
         MAP_PATH = PROJECT_ROOT / "assets" / "map_o.png"
+
+        # Verify that the image exists
+        if not MAP_PATH.is_file():
+            raise FileNotFoundError(
+                f"Campus map not found: {MAP_PATH}"
+            )
+
+        # Open the image using Pillow
+        self.bg_image = Image.open(MAP_PATH)
+
         # Logical map size (coords + canvas)
         MAP_DISPLAY_WIDTH = 600
         MAP_DISPLAY_HEIGHT = 776
 
-        # Make canvas match your coord system
+        # Make canvas match coord system
         self.campus_canvas.config(width=MAP_DISPLAY_WIDTH, height=MAP_DISPLAY_HEIGHT)
 
         # Compute the base scale from original -> display
