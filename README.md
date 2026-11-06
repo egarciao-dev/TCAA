@@ -130,8 +130,6 @@ git clone https://github.com/egarciao-dev/TCAA.git
 cd TCAA
 ```
 
-Replace `YOUR_USERNAME` with your GitHub username.
-
 ### 2. Create a virtual environment
 
 ```bash
