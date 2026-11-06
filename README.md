@@ -168,24 +168,36 @@ This starts the TCAA graphical application.
 
 Once the dependencies are installed, the application operates locally without requiring an internet connection.
 
+
 ## Project Structure
 
 ```text
 TCAA/
 ├── assets/
-│   └── map_o.png
-├── docs/
+│   ├── map_o.png
+│   └── screenshots/
+│       ├── campus_navigator.png
+│       ├── study_planner.png
+│       ├── note_search.png
+│       └── info.png
 ├── src/
 │   ├── __init__.py
 │   ├── main.py
 │   ├── campus_algorithms.py
 │   └── note_search_algorithms.py
 ├── tests/
+│   └── test_campus_algorithms.py
+├── .gitattributes
 ├── .gitignore
 ├── LICENSE
 ├── README.md
 └── requirements.txt
 ```
+
+- `assets/` contains images and application resources.
+- `src/` contains the application and algorithms.
+- `tests/` contains automated unit tests.
+
 
 The `docs/` and `tests/` directories can be added as supporting documentation and automated tests are developed.
 
