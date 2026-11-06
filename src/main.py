@@ -833,7 +833,7 @@ class TCAAApp(tk.Tk):
             return
 
         # Clear output before each run
-        self.study_out.delete("1.0", "end")
+        # self.study_out.delete("1.0", "end")
 
         # Validate available time
         try:

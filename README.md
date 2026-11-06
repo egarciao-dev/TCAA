@@ -6,6 +6,32 @@ Built with **Python and Tkinter**, TCAA combines graph navigation, study schedul
 
 The project was developed as part of **CPSC 335 – Algorithm Engineering** at California State University, Fullerton.
 
+## Application Screenshots
+
+### Campus Navigator
+Dijkstra's algorithm finds and highlights the shortest
+weighted path between two campus buildings.
+
+![Campus Navigator](assets/screenshots/campus_navigator.png)
+
+### Study Planner
+Compare Greedy Scheduling and Dynamic Programming
+to find efficient study schedules.
+
+![Study Planner](assets/screenshots/study_planner.png)
+
+### Notes Search Engine
+Compare Naive, Rabin-Karp, and KMP pattern matching
+using text extracted from documents.
+
+![Notes Search Engine](assets/screenshots/notes_search_engine.png)
+
+### About / Info
+Review algorithm complexity and fundamental
+computer science concepts.
+
+![Algorithm Information](assets/screenshots/info.png)
+
 ## Features
 
 ### 1. Campus Navigator
