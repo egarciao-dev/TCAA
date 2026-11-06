@@ -4,6 +4,8 @@
 
 Built with **Python and Tkinter**, TCAA combines graph navigation, study scheduling, and document searching into a single graphical application.
 
+**Tkinter** is commonly included with Python on Windows and macOS. Some Linux installations may require installing the system's Tkinter package separately.
+
 The project was developed as part of **CPSC 335 – Algorithm Engineering** at California State University, Fullerton.
 
 ## Application Screenshots
