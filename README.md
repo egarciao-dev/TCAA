@@ -24,7 +24,7 @@ to find efficient study schedules.
 Compare Naive, Rabin-Karp, and KMP pattern matching
 using text extracted from documents.
 
-![Notes Search Engine](assets/screenshots/notes_search_engine.png)
+![Notes Search Engine](assets/screenshots/notes_search.png)
 
 ### About / Info
 Review algorithm complexity and fundamental
