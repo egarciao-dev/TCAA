@@ -10,8 +10,7 @@ The project was developed as part of **Algorithm Engineering** at California Sta
 ## Application Screenshots
 
 ### Campus Navigator
-Dijkstra's algorithm finds and highlights the shortest
-weighted path between two campus buildings.
+Dijkstra's algorithm finds and highlights the shortest weighted path between two campus buildings.
 
 ![Campus Navigator](assets/screenshots/campus_navigator.png)
 
@@ -70,8 +69,10 @@ Users can:
 **Algorithms:**
 
 - **Greedy Scheduling:** Selects tasks using a value-to-time ratio heuristic.
-- **Dynamic Programming (0/1 Knapsack):** Finds an optimal selection within the discretized time-capacity model.
+- **Dynamic Programming (0/1 Knapsack):** Finds an optimal selection within the discretized time-capacity model. 
 - **Comparison Mode:** Runs both approaches to illustrate differences between heuristic and optimal solutions.
+
+The Dynamic Programming implementation uses 15-minute time units. For accurate comparisons, task durations should be entered in increments of 0.25 hours.
 
 ### 3. Notes Search Engine
 
@@ -96,7 +97,7 @@ A document text-search tool that demonstrates classic string-matching algorithms
 - Search for a text pattern using a selected algorithm.
 - Display the number of matches and a preview of their positions.
 - Measure algorithm execution time.
-- Compare all three algorithms and identify the fastest measured execution.
+- Execution times are measured for individual runs and may vary depending on document size, system performance, and runtime conditions. They are intended for educational comparison rather than formal benchmarking.
 
 ### 4. About / Information
 
@@ -133,11 +134,13 @@ cd TCAA
 
 ### 2. Create a virtual environment
 
+A virtual environment keeps the project's Python dependencies isolated from other projects. This step is recommended to avoid dependency conflicts, but it is not required.
+
 ```bash
 python -m venv .venv
 ```
 
-Activate the environment.
+Activate the virtual environment before installing dependencies.
 
 **Windows (PowerShell):**
 
