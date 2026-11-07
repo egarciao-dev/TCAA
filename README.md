@@ -246,6 +246,18 @@ Potential improvements include:
 - Expanding algorithm performance comparisons.
 - Improving the user interface and documentation.
 
+## Third-Party Assets
+
+### California State University, Fullerton Campus Map
+
+The Campus Navigator uses a campus map published by California State University, Fullerton.
+
+**Original source:** [CSUF Campus Map](https://www.fullerton.edu/gearup/_resources/images/resources/map.jpg)
+
+The map is a third-party asset. Its inclusion in this project does not imply endorsement by California State University, Fullerton.
+
+The project's MIT License does not grant any additional rights to the original map. Redistribution permission for the map has not yet been confirmed.
+
 ## License
 
 This project is licensed under the MIT License.
